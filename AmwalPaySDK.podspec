@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
 DESC
   s.homepage              = 'https://github.com/amwal-pay/amwalpay_ios_sdk'
   s.license               = { :type => 'BSD', :text => <<-LICENSE
-Copyright 2014 The Flutter Authors. All rights reserved.
+Copyright 2023 The Amwal Authors. All rights reserved.
 
 Redistribution and use in source and binary forms, with or without modification,
 are permitted provided that the following conditions are met:
@@ -38,7 +38,7 @@ SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 LICENSE
   }
   s.author                = { 'Amwal Dev Team' => 'amr.elskaan@amwal-pay.com' }
-  s.source                = { :http => 'https://storage.googleapis.com/flutter_infra_release/flutter/45f6e009110df4f34ec2cf99f63cf73b71b7a420/ios/artifacts.zip' }
+  s.source                = { :http => 'https://github.com/amwal-pay/amwalpay_ios_sdk/archive/refs/tags/1.0.zip' }
   s.documentation_url     = 'https://github.com/amwal-pay/amwalpay_ios_sdk'
   s.platform              = :ios, '11.0'
   s.dependency            = 'Flutter', '~> 3.10.500'
