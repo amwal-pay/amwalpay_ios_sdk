@@ -15,8 +15,8 @@ Pod::Spec.new do |spec|
   #  summary should be tweet-length, and the description more in depth.
   #
 
-  spec.name         = "AmwalyPod"
-  spec.version      = "1.0"
+  spec.name         = "AmwalPay"
+  spec.version      = "2.0"
   spec.summary      = "Amwal Pay makes online payment easier"
 
   # This description is used to generate tags and improve search results.
@@ -27,7 +27,7 @@ Pod::Spec.new do |spec|
 
   spec.description  = "Amwal Pay SDK built with flutter makes online payment easier."
 
-  spec.homepage     = "https://github.com/marwamelfeky/AmwalyPod"
+  spec.homepage     = "https://github.com/amwal-pay/amwalpay_ios_sdk"
   # spec.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -52,10 +52,8 @@ Pod::Spec.new do |spec|
   #  profile URL.
   #
 
-  spec.author             = { "marwamelfeky" => "marwamelfeky@gmail.com" }
-  # Or just: spec.author    = "marwamelfeky"
-  # spec.authors            = { "marwamelfeky" => "marwamelfeky@gmail.com" }
-  # spec.social_media_url   = "https://twitter.com/marwamelfeky"
+  spec.author             = { "Amr Saied" => "amr.elskaan@gmail.com" }
+
 
   # ――― Platform Specifics ――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
@@ -79,7 +77,7 @@ Pod::Spec.new do |spec|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :git => "https://github.com/marwamelfeky/AmwalyPod.git", :tag => "1.0" }
+  spec.source       = { :git => "https://github.com/amwal-pay/amwalpay_ios_sdk.git", :tag => "2.0" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
